@@ -1,6 +1,12 @@
 import datetime
 from dateutil.relativedelta import relativedelta
 DateToday = datetime.datetime.now()
-Birthday = datetime.datetime(1994,10,6)
+
+birth_year = int(input("Enter birth year : "))
+birth_month = int(input("Enter birth month : "))
+birth_day = int(input("Enter birth day : "))
+
+Birthday = datetime.datetime(birth_year,birth_month,birth_day)
 Age = relativedelta(DateToday, Birthday)
 print(f"Your Age is:{Age.years} Years, {Age.months} Months, {Age.days} Days")
+
