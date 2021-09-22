@@ -17,3 +17,8 @@ print(f"First Day: {FirstDay}\nLast Day: {LastDay}")
 # 16.Get me the 1st and last date of the current month in the format as following. '14th
 # June 2016 Tuesday 10:00:00 AM'
 print(f"{FirstDay.strftime('%d %B %Y %A %I:%M:%S %p')}\n{LastDay.strftime('%d %B %Y %A %I:%M:%S %p')}")
+
+
+
+
+
